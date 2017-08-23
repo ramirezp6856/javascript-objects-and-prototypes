@@ -17,7 +17,11 @@ Using strict mode disallows the use of deprecated parts of JavaScript.
 
 ### The Object Literal
 Define the properties and their values inside braces.
+
 `var dog = {
-    name : 'Fluffy',
+
+    name: 'Fluffy',
+    
     color: 'Red'
+    
  }`
