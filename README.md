@@ -47,3 +47,15 @@ Define the properties and their values inside braces.
 `dog.speak = function() { display("bork!") }`
 
 `dog.speak()`
+
+### The new keyword
+'use strict'
+
+`function Cat() {
+  this.name = 'Fluffy'
+  this.color = 'White'
+}`
+
+`var cat = new Cat();`
+
+`display(cat);`
