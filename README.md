@@ -22,3 +22,11 @@ Define the properties and their values inside braces.
   name: 'Fluffy',    
   color: 'Red' 
 }`
+
+### Utilizing the Object Literal
+
+'use strict'
+
+var dog = { name: 'Fluffy', color: 'Red' }
+
+display(dog.name);
