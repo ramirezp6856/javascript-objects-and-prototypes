@@ -19,9 +19,6 @@ Using strict mode disallows the use of deprecated parts of JavaScript.
 Define the properties and their values inside braces.
 
 `var dog = {`
-
 `    name: 'Fluffy',`
-    
 `    color: 'Red'`
-    
 ` }`
