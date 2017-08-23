@@ -1,4 +1,5 @@
 # javascript-objects-and-prototypes
+https://app.pluralsight.com/player?course=javascript-objects-prototypes&author=jim-cooper&name=javascript-objects-prototypes-m2&clip=2&mode=live
 
 # plnk.co
 `http://plnkr.co/edit/J81EK3TWFof0ekhEnyiJ?p=preview`
