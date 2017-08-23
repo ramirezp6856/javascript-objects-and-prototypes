@@ -76,3 +76,38 @@ Constructor pattern using the new keyword and even the constructor function.
 `var cat = new Cat('Fluffy', 'White');`
 
 `display(cat);`
+
+## What is essentially happening
+`'use strict'`
+
+`var cat = Object.create(Object.prototype,`
+
+`  {`
+
+`    name: {`
+
+`      value: 'Fluffy',`
+
+`      enumerable: true,`
+
+`      writable: true,`
+
+`      configurable: true`
+
+`    },`
+
+`    color: {`
+
+`      value: 'White',`
+
+`      enumerable: true,`
+
+`      writable: true,`
+
+`      configurable: true`
+
+`    }`
+
+`  })`
+
+`display(cat);`
