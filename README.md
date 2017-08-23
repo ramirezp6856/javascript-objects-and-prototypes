@@ -40,3 +40,12 @@ Define the properties and their values inside braces.
 `display(dog.name)`
 
 `display(dog.age)`
+
+### Functions as Property Values
+`'use strict'`
+
+`var dog = { name: 'Fluffy', color: 'Red' }`
+
+`dog.speak = function() { display("bork!") }`
+
+`dog.speak()`
