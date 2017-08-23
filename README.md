@@ -77,7 +77,7 @@ Constructor pattern using the new keyword and even the constructor function.
 
 `display(cat);`
 
-## What is essentially happening
+## What is essentially happening aka `Object.create`
 `'use strict'`
 
 `var cat = Object.create(Object.prototype,`
