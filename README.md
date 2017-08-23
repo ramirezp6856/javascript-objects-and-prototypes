@@ -111,3 +111,30 @@ Constructor pattern using the new keyword and even the constructor function.
 `  })`
 
 `display(cat);`
+
+## ECMAScript 6 Classes
+`'use strict'`
+
+`class Cat {`
+  
+`  constructor(name, color) {`
+    
+`    this.name = name`
+    
+`    this.color = color`
+  
+`  }`
+  
+`  speak() {`
+    
+`    display('Meoooow')`
+    
+`  }`
+ 
+`}`
+
+`var cat = new Cat('Fluffy', 'White')`
+
+`display(cat);`
+
+`cat.speak();`
