@@ -138,3 +138,19 @@ Constructor pattern using the new keyword and even the constructor function.
 `display(cat);`
 
 `cat.speak();`
+
+## Bracket Notation
+`'use strict'`
+
+`var cat = {`
+  
+`  name: 'Fluffy',`
+  
+`  color: 'White'`
+ 
+`}`
+
+`cat['Eye Color'] = 'Green'`
+
+`display(cat['Eye Color']);`
+
