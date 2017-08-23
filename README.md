@@ -37,8 +37,6 @@ Define the properties and their values inside braces.
 
 `dog.age = 3`
 
-`display(dog.name)`
-
 `display(dog.age)`
 
 ### Functions as Property Values
