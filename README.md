@@ -61,3 +61,15 @@ Define the properties and their values inside braces.
 `display(cat);`
 
 **NOTE:** Be mindful of the this keyword!
+
+### Constructor Function
+`'use strict'`
+
+`function Cat() {
+  this.name = name
+  this.color = color
+}`
+
+`var cat = new Cat('Fluffy', 'White');`
+
+`display(cat);`
