@@ -15,7 +15,7 @@ forked
 Strict mode causes JavaScript to throw erros in places it would, otherwise, just silently fail.
 Using strict mode disallows the use of deprecated parts of JavaScript.
 
-### The Object Literal
+## The Object Literal
 Define the properties and their values inside braces.
 
 `var dog = {
@@ -47,6 +47,9 @@ Define the properties and their values inside braces.
 `dog.speak = function() { display("bork!") }`
 
 `dog.speak()`
+
+## Constructor
+Constructor pattern using the new keyword and even the constructor function.
 
 ### The new keyword 
 `'use strict'`
